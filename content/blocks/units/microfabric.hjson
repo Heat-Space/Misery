@@ -1,0 +1,22 @@
+type: UnitFactory
+name: "Microfabric"
+size: 2
+consumes: {
+  power: 1.2
+}
+plans: [
+  {
+    unit: micro
+    time: 1080
+    requirements: [
+      silicon/25
+      metaglass/30
+    ]
+    }
+]
+requirements: [
+  lead/75
+  silicon/40
+]
+research: ground-factory
+category: units

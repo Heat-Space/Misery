@@ -1,0 +1,38 @@
+type: flying
+flying: true
+name: "Micro"
+speed: 2
+health: 600
+mineSpeed: 10.8
+mineTier: 6
+engineOffset: 5.5
+range: 150
+weapons: [
+    {
+        name: microlaser
+        mirror: false
+        top: false
+        shake: 4
+        shootY: 5
+        x: 0
+        y: 1
+
+        reload: 50
+        shootSound: laser
+        cooldownTime: 50
+        targetHealing: true
+
+        bullet: {
+            type: LaserBulletType
+            damage: 50
+            length: 150
+            width: 10
+            colors: [24e046,82ffa3,24e046,82ffa3,24e046,82ffa3]
+            despawnEffect: smokeCloud
+            smokeEffect: none
+            collidesTeam: true
+            healPercent: 50
+
+            shootEffect: greenLaserChargeSmall
+        }
+    }]

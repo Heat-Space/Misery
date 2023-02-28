@@ -1,0 +1,6 @@
+name: "Ruby"
+description: "A great gem, can be used for lazers."
+hardness: 2
+cost: 5
+color: E0115F
+research: copper

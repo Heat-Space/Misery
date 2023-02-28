@@ -1,0 +1,32 @@
+type: PowerTurret
+name: "Ruby Ray"
+description: "A powerful lazer made out of simple electronics." 
+size: 1
+health: 300
+range: 120
+canOverdrive: false
+rotateSpeed: 100
+shootSound: laser
+reloadTime: 100
+recoilAmount: 14
+chargeEffect: none
+
+shootType: {
+  type: LaserBulletType
+  damage: 50
+  length: 100
+  width: 10
+  colors: [e0115F, 9b111e, e0115F, 9b111e, e0115F, 9b111e]
+}
+
+consumes: {
+    power: 0.5
+}
+
+category: turret
+requirements: [
+  copper/50
+  lead/50
+  ruby/40
+]
+research: ruby

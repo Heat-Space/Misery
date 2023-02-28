@@ -1,0 +1,8 @@
+name: "misery"
+displayName: "Misery"
+author: Heat3Space
+description: "A massive collection of many new items and turrets."
+version: "1.0"
+minGameVersion: "142"
+dependencies: [ ]
+hidden: true
